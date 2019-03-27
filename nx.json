@@ -7,5 +7,12 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "ngrx-playground": {
+      "tags": []
+    },
+    "ngrx-playground-e2e": {
+      "tags": []
+    }
+  }
 }

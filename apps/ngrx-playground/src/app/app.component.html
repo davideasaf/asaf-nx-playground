@@ -1,0 +1,9 @@
+<h1>Home: {{ homeScore$ | async | json }}</h1>
+<button (click)="increment('home')">Increment Home</button
+><button (click)="decrement('home')">Decrement Home</button>
+
+<h1>Away: {{ awayScore$ | async }}</h1>
+<button (click)="increment('away')">Increment Home</button
+><button (click)="decrement('away')">Decrement Home</button> <br />
+<br />
+<button (click)="reset()">Reset Scores</button>

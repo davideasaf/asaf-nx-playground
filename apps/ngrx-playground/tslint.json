@@ -1,0 +1,7 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [true, "attribute", "asaf-playground", "camelCase"],
+    "component-selector": [true, "element", "asaf-playground", "kebab-case"]
+  }
+}
